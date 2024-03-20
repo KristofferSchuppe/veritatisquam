@@ -1,0 +1,47 @@
+{
+  "name": "veritatisquam",
+  "description": "Carbon charting components, lerna monorepo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KristofferSchuppe/veritatisquam.git"
+  },
+  "keywords": [
+    "aut"
+  ],
+  "author": "LeathaMurazik",
+  "license": "Apache-2.0",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "bash scripts/precommit.sh"
+    }
+  },
+  "release": {
+    "branch": "master"
+  },
+  "devDependencies": {
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.1.0",
+    "husky": "4.2.1",
+    "lerna": "3.20.2",
+    "prettier": "2.2.1",
+    "prettier-config-carbon": "0.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "maintainers": [
+    {
+      "name": "Eliad Moosavi",
+      "email": "iliadm@ca.ibm.com"
+    }
+  ],
+  "homepage": "https://github.com/KristofferSchuppe/veritatisquam.git",
+  "version": "1.0.0"
+}
